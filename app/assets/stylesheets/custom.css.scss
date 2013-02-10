@@ -1,0 +1,203 @@
+$linkColor: black;
+$linkColorHover: #FF4900;
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(http://fonts.googleapis.com/css?family=Schoolbell);
+@import "bootstrap";
+
+/* universal */
+
+/*.navbar .container {
+  background-color: black;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+  background-color: black;
+}
+*/
+
+.hero-unit {
+  text-align: center;
+  text-transform: lowercase;
+  background-color: black;  
+}
+
+.hero-unit h1 {
+  text-align: center;
+  text-transform: lowercase;
+  color: white;
+}
+
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 60px;
+  background-color: black;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+.navbar-inner {
+  background-color: #000; 
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+}
+
+
+li {
+  text-align: right;
+  
+}
+
+ul, ol {
+  list-style-type: none; 
+}
+
+div {
+  margin-bottom: -10px;
+}
+
+fieldset {
+  padding: 1em;
+  font-size: 1em;
+  font-family: 'Schoolbell', cursive;
+  text-transform: lowercase;
+  color: white;
+}
+
+label {
+  margin-bottom: 10px;
+  
+}
+
+input {
+  font-family: 'Schoolbell', cursive;
+  text-transform: lowercase;
+}
+
+textarea {
+  font-family: 'Schoolbell', cursive;
+
+}
+
+
+
+
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 2em;
+  letter-spacing: -2px;
+  margin-bottom: 50px;
+  text-align: left;
+  font-family: 'Schoolbell', cursive;
+  padding-top: 10px;
+  color: white;
+}
+
+
+h2 {
+  font-size: 1.7em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: black;
+}
+
+h3 {
+  text-align: center;  
+  margin-left: 10px;
+  font-family: 'Schoolbell', cursive;
+  color: white;
+  text-transform: lowercase;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+  
+}
+
+p.allText {
+
+  font-family: 'Schoolbell', cursive;
+  color: white;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+/* header */
+
+#logo {
+  font-family: 'Schoolbell', cursive;
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: white;
+  text-transform: lowercase;
+  letter-spacing: -1px;
+  padding-top: 18px;
+  font-weight: normal;
+  line-height: 1;
+}
+
+#logo:hover {
+  color: #FF4900;
+  text-decoration: none;
+  
+}
+
+li {
+  font-family: 'Schoolbell', cursive;
+  color: white;
+  text-transform: lowercase;
+  font-weight: bold;
+}
+
+li:hover {
+  color: #FF4900;
+  text-decoration: none;
+} 
+
+a {
+  font-family: 'Schoolbell', cursive;
+  color: white;
+}
+
+.black_link {
+  color: black;
+  font-family: 'Schoolbell', cursive;
+}
+
+a:hover {
+  font-family: 'Schoolbell', cursive;
+  color: #FF4900;
+  text-decoration: none;
+
+label {
+  color: white;
+}
+}
